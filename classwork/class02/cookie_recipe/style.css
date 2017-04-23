@@ -14,15 +14,17 @@ li {
   text-align: center;
   list-style: none; 
 }
+
 a {
   color: #900;
   text-decoration:none;
 }
+
 h4 {
   color: #887;
   }
 
 image {
-  border: 20px;
+  border: 30px;
   color: black;
 }

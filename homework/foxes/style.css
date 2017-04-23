@@ -1,0 +1,47 @@
+body {
+  background: #FFE
+}
+
+p {
+  color: #000000;
+  font-family: helvetica;
+  font-size: 16px;
+}
+li {
+  color: black;
+  font-weight: #2f2189;
+  font-size: 16px;
+  font-family: helvetica;
+  text-align: left;
+  list-style: none; 
+  text-decoration:none;
+}
+
+h1{
+  color: #2f2189;
+  font-size: 40px;
+}
+
+h2 {
+  color: #2f2189;
+}
+
+h3 {
+  color: #1b5081;
+  font-size: 20px;
+}
+
+
+a {
+  color: #3c6798;
+  text-decoration:none;
+}
+
+h4 {
+  color: #887;
+  }
+
+image {
+  border: 30px;
+  color: black;
+}
