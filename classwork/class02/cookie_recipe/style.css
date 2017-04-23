@@ -1,0 +1,24 @@
+body {
+  background: #FFE
+}
+
+p {
+  color: #a76fff;
+}
+li {
+  color: black;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 18px;
+  font-family: helvetica;
+  text-align: center;
+  list-style: none; 
+}
+a {
+  color: r#900;
+  text-decoration:none;
+}
+h4 {
+  color: #887;
+  
+}
