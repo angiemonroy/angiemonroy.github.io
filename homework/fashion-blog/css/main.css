@@ -50,7 +50,6 @@ p {
 .content{
 	font-family: lato;
 	width: 720px;
-	padding: 54px;
 	margin: 0 auto;
 }
 
@@ -76,5 +75,9 @@ a{
 
 a:hover { 
     color:#aa0000;
+}
+
+nav a {
+	padding: 10px;
 }
 

@@ -1,0 +1,57 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.box {
+  height: 150px;
+}
+
+header {
+  background: red;
+}
+
+main {
+  background: yellow;
+  float:left;
+  width:333px;
+}
+
+section {
+  background: grey;
+}
+
+aside {
+  background: green;
+  float:right;
+  width:333px;
+}
+
+footer {
+  background: blue;
+}
+
+.boxleft {
+  background: pink;
+  float:left;
+  width:500px;
+}
+
+.boxright {
+  background: orange;
+  float:right;
+  width:500px;
+}
+
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.clear {
+/*  clear: ;*/
+}
