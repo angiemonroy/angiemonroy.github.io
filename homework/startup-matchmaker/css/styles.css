@@ -19,6 +19,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 .logo {
 	width: 400px;
 	float: left;
+	padding: 0px 0px 0px 10px;
 }
 
 .nav {
@@ -194,7 +195,7 @@ footer {
 	font-family: "Source Sans Pro";
 	text-align: left;
 	color: white;
-	padding: 20px 0px 10px 20px;
+	padding: 20px 0px 10px 35px;
 
 }
 
