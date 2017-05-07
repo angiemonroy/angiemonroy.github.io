@@ -112,29 +112,32 @@ h4 {
 
 .profile {
 	height: 200px;
-	width: 300px;
+	width: 290px;
 	float: left;
 	text-align: left;
-	padding: 30px 20px 30px 20px;
-	border-right: 1px solid grey;
+	padding: 30px 50px 30px 20px;
+	border-right: 1px solid lightgrey;
+	margin: 30px 0px 30px 0px;
 }
 
 
 .developer {
 	height: 200px;
-	width: 300px;
+	width: 290px;
 	float: left;
 	text-align: left;
-	padding: 30px 20px 30px 50px;
-	border-right: 1px solid grey;
+	padding: 30px 50px 30px 40px;
+	border-right: 1px solid lightgrey;
+	margin: 30px 0px 30px 0px;
 }
 
 .designer{
 	height: 200px;
-	width: 300px;
+	width: 290px;
 	float: right;
 	text-align: left;
 	padding: 30px 20px 30px 20px;
+	margin: 30px 0px 30px 0px;
 }
 
 h3 {
