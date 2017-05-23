@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<input id="user-input" value="" />
+<br>
+<p>
+<h1>Convert to </h1>
+<select id="convert-to">
+	<option value="cel">Celcius</option>
+	<option value="far">Fahrenheit</option>
+</select>
+<button id="convert">Convert</button>
+	<script type="text/javascript" src="js/project.js"></script>
+</body>
+</p>
+<div id="output"></div>
+</html>
+<script>
+jQuery(document).ready(function($){
+	$("#convert").click(function(){
+		var temp = $("#user-input").val();
+		var to = $("#convert-to").val();
+		var output = "";
+		if(to === "far"){
+			value = temp * 9 / 5 + 32;
+			output = temp + " Celcius equals to " + value + " Fahrenheits";
+		}else{
+			value = (temp - 32) * 5 / 9;
+			output = temp + " Fahrenheits equals to " + value + " Celcius";
+		}
+		$("#output").html(output);
+	});
+});
+</script>
